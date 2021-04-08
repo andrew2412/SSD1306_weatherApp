@@ -7,8 +7,8 @@ This project shows how to build own weather station using raspberry pi, SPI disp
 It was developed on RaspberryPi 4B.
 
 Other hardware:
-SHT30 - conneted via I2C
-ILI9341 display - connected via SPI
+* SHT30 - conneted via I2C
+* ILI9341 display - connected via SPI
 
 # Software 
 
