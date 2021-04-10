@@ -180,8 +180,8 @@ draw.line((0, 160, 320, 160), fill=fontColor)
 
 
 drawForecast(draw, 1, 165, weatherInfo['forecast']['list'][0], image)
-drawForecast(draw, 101, 165, weatherInfo['forecast']['list'][0], image)
-drawForecast(draw, 201, 165, weatherInfo['forecast']['list'][0], image)
+drawForecast(draw, 101, 165, weatherInfo['forecast']['list'][1], image)
+drawForecast(draw, 201, 165, weatherInfo['forecast']['list'][2], image)
 
 # Display image
 display.draw(image.convert("RGB"))
