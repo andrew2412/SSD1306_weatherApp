@@ -11,6 +11,7 @@ class ili9341(display):
     def __init__(self):
         # Change these
         # to the right size for your display!
+        # This display has 240x320 but in my case im using it in horizontal position, so I have to reverse these parameters
         self.WIDTH = 320
         self.HEIGHT = 240  # Change to 64 if needed
         
@@ -28,4 +29,5 @@ class ili9341(display):
         return (self.WIDTH, self.HEIGHT)
 
     def draw(self, image):
+        # and here I have to rotate the image
         self.display.image(image, 270)
